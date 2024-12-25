@@ -20,9 +20,7 @@ TEMP_RESOLUTION_MAX = const(3)  # +0.0625 C, refresh rate 250 ms [Default]
 
 
 # Alert selectors
-ALERT_SELECT_ALL = const(
-    0
-)  # ambient > upper || ambient > critical || ambient < lower [Default]
+ALERT_SELECT_ALL = const(0)  # ambient > upper || ambient > critical || ambient < lower [Default]
 ALERT_SELECT_CRIT = const(1)  # Ambient temp > critical
 
 
